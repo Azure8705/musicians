@@ -1,6 +1,6 @@
 var musicians = require('./musicians.js');
 
-var nigel = new musicians.Guitarist;
+var nigel = new musicians.Guitarist();
 nigel.tune();
 nigel.solo(8);
 

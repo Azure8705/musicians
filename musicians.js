@@ -31,5 +31,5 @@ Bassist.prototype.constructor = Bassist;
 
 exports.Musician = Musician;
 exports.Guitarist = Guitarist;
-exports.Bassist;
+exports.Bassist = Bassist;
 
