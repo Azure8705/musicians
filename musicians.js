@@ -10,7 +10,7 @@ Musician.prototype.solo = function(length) {
 	console.log(solo);
 };
 
-var Guitarist =function() {
+var Guitarist = function() {
 	Musician.call(this, ['Twang', 'Thrumb', 'Bling']);
 	this.strings = 6;
 };
@@ -28,3 +28,8 @@ var Bassist = function() {
 };
 Bassist.prototype = Object.create(Musician.prototype);
 Bassist.prototype.constructor = Bassist;
+
+exports.Musician = Musician;
+exports.Guitarist = Guitarist;
+exports.Bassist;
+
